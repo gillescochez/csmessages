@@ -1,0 +1,49 @@
+/* CS Messages specific style */
+a.csm_close {
+	background:url(../img/close.png) no-repeat top right;
+	position:absolute;
+	cursor:pointer;
+	display:block;
+	height:16px;
+	width:16px;
+	right:0;
+	top:0;
+}
+	a.csm_close:hover {
+	
+	}
+/* message styling for the demo */
+div.message {
+	padding:15px 15px 15px 50px;
+	border:1px solid #ccc;
+	position:relative;
+}
+div.info {
+	background:#D2DFFC url(../img/info.png) no-repeat 5px center;
+	border-color:darkblue;
+	color:darkblue;
+}
+div.attention {
+	background:#F9F9D3 url(../img/attention.png) no-repeat 5px center;
+	border-color:#E8C004;
+	color:#AD7D0B;
+}
+	div.attention a.csm_close {
+		background:transparent;
+		padding-right:4px;
+		width:auto;
+		color:red;
+	}
+	div.attention a.csm_close:hover {
+		text-decoration:underline;
+	}
+div.error {
+	background:#FCD2D5 url(../img/error.png) no-repeat 5px center;
+	border-color:#cc0033;
+	color:#cc0033;
+}
+div.success {
+	background:#D2FCD3 url(../img/success.png) no-repeat 5px center;
+	border-color:darkgreen;
+	color:darkgreen;
+}
